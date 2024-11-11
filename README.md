@@ -32,7 +32,7 @@ To fetch the data and store it in Redis, use:
 
 ```bash
 
-python -m project_name.main
+python -m top_track_in_space.main
 ```
 
 # Usage
@@ -41,4 +41,4 @@ Storage: Data is stored in Redis under unique keys for each day, allowing easy r
 
 # Notes
 Ensure Redis is running on localhost:6379 for the application to connect and store data.
-For customized Redis configurations, modify the `store_data.py` file in the `top track in space` package as needed.
+For customized Redis configurations, modify the `store_data.py` file in the `top_track_in_space` package as needed.
